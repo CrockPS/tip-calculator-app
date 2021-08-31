@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Style.css">
+  <script src="main.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <H1>S P L I<br>T T E R</H1>
+  <div id="main-card">
+    <div id="div1">
+      <p id="p1">Bill</p>
+      <input type="text" id="input1" placeholder="0">
+      <p class="p1">Select Tip %</p>
+      <div id="grid">
+        <button id="bt1" class="bt" onclick="cinco()">5%</button>
+        <button id="bt2" class="bt" onclick="dez()">10%</button>
+        <button id="bt3" class="bt" onclick="quinze()">15%</button>
+        <button id="bt4" class="bt" onclick="vinteCinco()">25%</button>
+        <button id="bt5" class="bt" onclick="cinquenta()">50%</button>
+        <input type="text" id="input2" placeholder="Custom" onchange="custom()">
+      </div>
+      <p class="p1">Number of People</p>
+      <input type="text" id="input3" placeholder="0" required>
+    </div>
+    <div id="div2">
+      <div id="sub-div1">
+        <p class="p2">Tip Amount<br><span>/ person</span></p>
+        <p id="value1" class="p3">$0.00</p>
+      </div>
+      <div id="sub-div2">
+        <p class="p2">Total<br><span>/ person</span></p>
+        <p id="value2" class="p3">$0.00</p>
+      </div>
+      <button id="bt-r">Reset</button>
+    </div>
+  </div>
+</body>
+</html>
